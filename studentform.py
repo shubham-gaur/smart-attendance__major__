@@ -1,0 +1,165 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'studentform.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName(_fromUtf8("Dialog"))
+        Dialog.resize(494, 295)
+        Dialog.setMinimumSize(QtCore.QSize(494, 289))
+        Dialog.setMaximumSize(QtCore.QSize(494, 295))
+        self.gridLayout = QtGui.QGridLayout(Dialog)
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
+        self.splitter = QtGui.QSplitter(Dialog)
+        self.splitter.setOrientation(QtCore.Qt.Vertical)
+        self.splitter.setObjectName(_fromUtf8("splitter"))
+        self.layoutWidget = QtGui.QWidget(self.splitter)
+        self.layoutWidget.setObjectName(_fromUtf8("layoutWidget"))
+        self.verticalLayout_2 = QtGui.QVBoxLayout(self.layoutWidget)
+        self.verticalLayout_2.setObjectName(_fromUtf8("verticalLayout_2"))
+        self.groupBox = QtGui.QGroupBox(self.layoutWidget)
+        self.groupBox.setObjectName(_fromUtf8("groupBox"))
+        self.horizontalLayout = QtGui.QHBoxLayout(self.groupBox)
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
+        self.gridLayout_2 = QtGui.QGridLayout()
+        self.gridLayout_2.setObjectName(_fromUtf8("gridLayout_2"))
+        self.line_6 = QtGui.QFrame(self.groupBox)
+        self.line_6.setFrameShape(QtGui.QFrame.VLine)
+        self.line_6.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_6.setObjectName(_fromUtf8("line_6"))
+        self.gridLayout_2.addWidget(self.line_6, 3, 1, 1, 1)
+        self.line_3 = QtGui.QFrame(self.groupBox)
+        self.line_3.setFrameShape(QtGui.QFrame.VLine)
+        self.line_3.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_3.setObjectName(_fromUtf8("line_3"))
+        self.gridLayout_2.addWidget(self.line_3, 0, 1, 1, 1)
+        self.year_Spin = QtGui.QSpinBox(self.groupBox)
+        self.year_Spin.setMinimumSize(QtCore.QSize(72, 0))
+        self.year_Spin.setMinimum(1)
+        self.year_Spin.setMaximum(4)
+        self.year_Spin.setObjectName(_fromUtf8("year_Spin"))
+        self.gridLayout_2.addWidget(self.year_Spin, 3, 2, 1, 1, QtCore.Qt.AlignLeft)
+        self.line_5 = QtGui.QFrame(self.groupBox)
+        self.line_5.setFrameShape(QtGui.QFrame.VLine)
+        self.line_5.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_5.setObjectName(_fromUtf8("line_5"))
+        self.gridLayout_2.addWidget(self.line_5, 2, 1, 1, 1)
+        self.label = QtGui.QLabel(self.groupBox)
+        self.label.setMinimumSize(QtCore.QSize(214, 0))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.label.setFont(font)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1)
+        self.label_3 = QtGui.QLabel(self.groupBox)
+        self.label_3.setMinimumSize(QtCore.QSize(214, 0))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.label_3.setFont(font)
+        self.label_3.setObjectName(_fromUtf8("label_3"))
+        self.gridLayout_2.addWidget(self.label_3, 2, 0, 1, 1)
+        self.name = QtGui.QLineEdit(self.groupBox)
+        self.name.setMinimumSize(QtCore.QSize(219, 20))
+        self.name.setObjectName(_fromUtf8("name"))
+        self.gridLayout_2.addWidget(self.name, 0, 2, 1, 1, QtCore.Qt.AlignLeft)
+        self.enroll = QtGui.QLineEdit(self.groupBox)
+        self.enroll.setMinimumSize(QtCore.QSize(219, 0))
+        self.enroll.setObjectName(_fromUtf8("enroll"))
+        self.gridLayout_2.addWidget(self.enroll, 1, 2, 1, 1, QtCore.Qt.AlignLeft)
+        self.line_4 = QtGui.QFrame(self.groupBox)
+        self.line_4.setFrameShape(QtGui.QFrame.VLine)
+        self.line_4.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_4.setObjectName(_fromUtf8("line_4"))
+        self.gridLayout_2.addWidget(self.line_4, 1, 1, 1, 1)
+        self.branch_Combo = QtGui.QComboBox(self.groupBox)
+        self.branch_Combo.setMinimumSize(QtCore.QSize(70, 0))
+        self.branch_Combo.setObjectName(_fromUtf8("branch_Combo"))
+        self.branch_Combo.addItem(_fromUtf8(""))
+        self.branch_Combo.addItem(_fromUtf8(""))
+        self.branch_Combo.addItem(_fromUtf8(""))
+        self.branch_Combo.addItem(_fromUtf8(""))
+        self.gridLayout_2.addWidget(self.branch_Combo, 2, 2, 1, 1, QtCore.Qt.AlignLeft)
+        self.label_2 = QtGui.QLabel(self.groupBox)
+        self.label_2.setMinimumSize(QtCore.QSize(214, 0))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.gridLayout_2.addWidget(self.label_2, 1, 0, 1, 1)
+        self.label_4 = QtGui.QLabel(self.groupBox)
+        self.label_4.setMinimumSize(QtCore.QSize(214, 0))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName(_fromUtf8("label_4"))
+        self.gridLayout_2.addWidget(self.label_4, 3, 0, 1, 1)
+        self.horizontalLayout.addLayout(self.gridLayout_2)
+        self.verticalLayout_2.addWidget(self.groupBox)
+        self.layoutWidget1 = QtGui.QWidget(self.splitter)
+        self.layoutWidget1.setObjectName(_fromUtf8("layoutWidget1"))
+        self.horizontalLayout_2 = QtGui.QHBoxLayout(self.layoutWidget1)
+        self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
+        spacerItem = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem)
+        self.display_btn = QtGui.QPushButton(self.layoutWidget1)
+        self.display_btn.setObjectName(_fromUtf8("display_btn"))
+        self.horizontalLayout_2.addWidget(self.display_btn)
+        self.add_btn = QtGui.QPushButton(self.layoutWidget1)
+        self.add_btn.setObjectName(_fromUtf8("add_btn"))
+        self.horizontalLayout_2.addWidget(self.add_btn)
+        spacerItem1 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem1)
+        self.gridLayout.addWidget(self.splitter, 0, 0, 1, 1)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+        Dialog.setTabOrder(self.name, self.enroll)
+        Dialog.setTabOrder(self.enroll, self.branch_Combo)
+        Dialog.setTabOrder(self.branch_Combo, self.year_Spin)
+        Dialog.setTabOrder(self.year_Spin, self.display_btn)
+        Dialog.setTabOrder(self.display_btn, self.add_btn)
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog", None))
+        self.groupBox.setTitle(_translate("Dialog", "GroupBox", None))
+        self.label.setText(_translate("Dialog", "Name", None))
+        self.label_3.setText(_translate("Dialog", "Branch", None))
+        self.branch_Combo.setItemText(0, _translate("Dialog", "CSE", None))
+        self.branch_Combo.setItemText(1, _translate("Dialog", "IT", None))
+        self.branch_Combo.setItemText(2, _translate("Dialog", "MECH", None))
+        self.branch_Combo.setItemText(3, _translate("Dialog", "CIVIL", None))
+        self.label_2.setText(_translate("Dialog", "Enrollment No.", None))
+        self.label_4.setText(_translate("Dialog", "Year", None))
+        self.display_btn.setText(_translate("Dialog", "Dislpay", None))
+        self.add_btn.setText(_translate("Dialog", "Add", None))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Dialog = QtGui.QDialog()
+    ui = Ui_Dialog()
+    ui.setupUi(Dialog)
+    Dialog.show()
+    sys.exit(app.exec_())
+
