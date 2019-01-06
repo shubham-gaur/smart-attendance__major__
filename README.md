@@ -1,1 +1,1 @@
-# intelligent-attendance-management-system
+# Intelligent Attendance Management System
